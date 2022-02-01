@@ -24,8 +24,7 @@ const Banner = () => {
                     <button className={styles.button}>JOIN NOW</button>
                 </div>
             </div>  
-            <div className={styles.outer2} data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">   
+            <div className={styles.outer2} data-aos="fade-in">  
                 <div className={styles.content}>
                     <h2 className={styles.h22}>MISSION</h2>
                         <p className={styles.p}>The universal metaverse association (UNMA) 
@@ -34,9 +33,40 @@ const Banner = () => {
                         Education, helps develop industry best practices, connects member 
                         Corporations, and promotes the services of member companies.</p>
                 </div>
-                
             </div>
+            <div className={styles.outer2} data-aos="fade-in">  
+                <div className={styles.content}>
+                    <h2 className={styles.h22}>MISSION</h2>
+                        <p className={styles.p}>The universal metaverse association (UNMA) 
+                        Is an international organization set up to cultivate collaboration between solution 
+                        Providers and end-users that accelerates growth, fosters research and 
+                        Education, helps develop industry best practices, connects member 
+                        Corporations, and promotes the services of member companies.</p>
+                </div>
+            </div>
+            <div className={styles.outer2} data-aos="fade-in">  
+                <div className={styles.content}>
+                    <h2 className={styles.h22}>MISSION</h2>
+                        <p className={styles.p}>The universal metaverse association (UNMA) 
+                        Is an international organization set up to cultivate collaboration between solution 
+                        Providers and end-users that accelerates growth, fosters research and 
+                        Education, helps develop industry best practices, connects member 
+                        Corporations, and promotes the services of member companies.</p>
+                </div>
+            </div>
+            <div className={styles.outer2} data-aos="fade-in">  
+                <div className={styles.content}>
+                    <h2 className={styles.h22}>MISSION</h2>
+                        <p className={styles.p}>The universal metaverse association (UNMA) 
+                        Is an international organization set up to cultivate collaboration between solution 
+                        Providers and end-users that accelerates growth, fosters research and 
+                        Education, helps develop industry best practices, connects member 
+                        Corporations, and promotes the services of member companies.</p>
+                </div>
+            </div>
+
         </div>
+        
     )
  }
 export default Banner;
