@@ -36,12 +36,24 @@ const Banner = () => {
             </div>
             <div className={styles.outer2} data-aos="fade-in">  
                 <div className={styles.content}>
-                    <h2 className={styles.h22}>MISSION</h2>
-                        <p className={styles.p}>The universal metaverse association (UNMA) 
-                        Is an international organization set up to cultivate collaboration between solution 
-                        Providers and end-users that accelerates growth, fosters research and 
-                        Education, helps develop industry best practices, connects member 
-                        Corporations, and promotes the services of member companies.</p>
+                    <h3 className={styles.h22}>WHAT IS UNMA</h3>
+                    <h2 className={styles.h22}>DISCOVER A WORLD OF CONTENT WITH BRIDGE</h2>
+                        <hr align="center" width="50%"></hr>
+                        <ul className={styles.ul}>
+                            <li className={styles.li}> 
+                                WHAT IS BRIDGE?
+                                <p className={styles.p2}>Increased exposure and cross-networking effects to leading blockchain industries through our network.</p>
+                            </li>
+                            <li className={styles.li}> 
+                                ALSO INSIDE UNREAL?
+                                <p className={styles.p2}>Increased exposure and cross-networking effects to leading blockchain industries through our network.</p>
+                            </li>
+                            <li className={styles.li}> 
+                                ALSO INSIDE UNREAL?
+                                <p className={styles.p2}>Increased exposure and cross-networking effects to leading blockchain industries through our network.</p>
+                            </li>
+
+                        </ul>
                 </div>
             </div>
             <div className={styles.outer2} data-aos="fade-in">  
