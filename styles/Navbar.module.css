@@ -1,0 +1,81 @@
+.container{
+    height: 90px;
+    padding: 0px 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    /* position: absolute; */
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1;
+
+}
+
+.item{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100%;
+    color: white;
+    /* font-size: 20px; */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 20px;
+    /* cursor: pointer; */
+    /* flex: 1;
+    display: flex;
+    color: white;
+    align-items: center; */
+}
+
+.item:nth-child(2){
+    flex:3;
+}
+.item:last-child{
+    justify-content: flex-end;
+}
+
+.logo{
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+.listItem{
+    margin: 0px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.membership{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    color: white;
+    /* font-size: 20px; */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    border: 2px solid white;
+    /* flex: 1;
+    display: flex;
+    color: white;
+    align-items: center; */
+}

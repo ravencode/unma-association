@@ -1,0 +1,72 @@
+.container{}
+.outer {
+    position: relative;
+    width: 100%;
+    z-index: 0;
+  }
+  .outer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    object-position: center;
+  }
+  .content {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+  }
+
+  .h2{
+      color: white;
+      font-family: Impact,fantasy;
+      font-weight: 200;
+      margin: 1px;
+  }
+
+  .h2m{
+    color: rgb(5, 242, 155);
+    font-family: Impact,fantasy;
+    font-weight: 100;
+  }
+
+  .button{
+    /* background-color: transparent;
+    font-family: Impact,fantasy;
+    font-weight: 100;
+    font-size: 2rem; */
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .outer2{
+      background-color: black;
+  }
+
+  .h22{
+        color: white;
+        font-family: Impact,fantasy;
+        font-weight: 200;
+        
+  }
+  .p{
+    color: white;
+    font-weight: 100;
+    font-size: 1rem;
+    padding: auto;
+  }
