@@ -1,4 +1,4 @@
-.container{}
+.container{ overflow-x: hidden;}
 .outer {
     position: relative;
     width: 100%;
