@@ -4,18 +4,21 @@ import Image from 'next/image';
 const Banner = () => {
     return (
         <div className={styles.container}>
-                <div class={styles.outer}>
-                    <img src="/img/pexels-michael-swigunski-7079774.jpg" />
-                <div class={styles.content}>
+                <div className={styles.outer}>
+                <div className={styles.img}>
+                    <Image src="/img/pexels-michael-swigunski-7079774.jpg" alt="" title="" layout='fill'
+    ></Image>
+                </div>
+                <div className={styles.content}>
                     <h2 className={styles.h2}>JOIN  THE </h2>
                     <h2 className={styles.h2}>GLOBAL  INDUSTRY </h2>
                     <h2 className={styles.h2}>ASSOCIATION  FOR </h2>
                     <h2 className={styles.h2m}>METAVERSE</h2>
                     <button className={styles.button}>JOIN NOW</button>
                 </div>
-            </div>
-            <div class={styles.outer2}>   
-                <div class={styles.content}>
+            </div>  
+            <div className={styles.outer2}>   
+                <div className={styles.content}>
                     <h2 className={styles.h22}>MISSION</h2>
                     <p className={styles.p}>THE UNIVERSAL METAVERSE ASSOCIATION(UNMA) </p>
                     <p className={styles.p}>IS AN INTERNATIONAL ORGANIZATION SET UP TO CULTIVATE COLLABORATION BETWEEN SOLUTION </p>
