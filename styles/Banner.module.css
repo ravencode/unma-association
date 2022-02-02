@@ -16,8 +16,8 @@
     object-position: center;
   }
   .content {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
@@ -69,8 +69,9 @@
     font-weight: 10;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
   }
   .ul{
     display: flex;
@@ -92,3 +93,30 @@
     font-size: small;
   }
 
+  /* CSS to write 3 paragraphs with heading horizontally */
+  .headp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Impact,fantasy;
+    font-weight: 200;
+    font-size: 2rem;
+  }
+
+  .parah3{
+    font-family: sans-serif;
+    align-items: center;
+    font-size: 30px;
+    margin: 1px;
+  }
+
+  .para{
+    font-family: sans-serif;
+    align-items: center;
+    font-size: small;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+  }

@@ -39,21 +39,20 @@ const Banner = () => {
                     <h3 className={styles.h22}>WHAT IS UNMA</h3>
                     <h2 className={styles.h22}>DISCOVER A WORLD OF CONTENT WITH BRIDGE</h2>
                         <hr align="center" width="50%"></hr>
-                        <ul className={styles.ul}>
-                            <li className={styles.li}> 
-                                WHAT IS BRIDGE?
-                                <p className={styles.p2}>Increased exposure and cross-networking effects to leading blockchain industries through our network.</p>
-                            </li>
-                            <li className={styles.li}> 
-                                ALSO INSIDE UNREAL?
-                                <p className={styles.p2}>Increased exposure and cross-networking effects to leading blockchain industries through our network.</p>
-                            </li>
-                            <li className={styles.li}> 
-                                ALSO INSIDE UNREAL?
-                                <p className={styles.p2}>Increased exposure and cross-networking effects to leading blockchain industries through our network.</p>
-                            </li>
-
-                        </ul>
+                        <div className={styles.headp}>
+                            <div className={styles.paradiv}>
+                                <h3 className={styles.parah3}>HELLO</h3>
+                                <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aut corporis totam! Adipisci qui veniam maiores, quae nesciunt atque laudantium consectetur aut mollitia ad quasi saepe nulla suscipit laboriosam illo!</p>
+                            </div>
+                            <div className={styles.paradiv}>
+                                <h3 className={styles.parah3}>HELLO</h3>
+                                <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aut corporis totam! Adipisci qui veniam maiores, quae nesciunt atque laudantium consectetur aut mollitia ad quasi saepe nulla suscipit laboriosam illo!</p>
+                            </div>
+                            <div className={styles.paradiv}>
+                                <h3 className={styles.parah3}>HELLO</h3>
+                                <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aut corporis totam! Adipisci qui veniam maiores, quae nesciunt atque laudantium consectetur aut mollitia ad quasi saepe nulla suscipit laboriosam illo!</p>
+                            </div>
+                        </div>
                 </div>
             </div>
             <div className={styles.outer2} data-aos="fade-in">  
